@@ -35,9 +35,13 @@ MIC_ProcessBlock() extracts the microphone samples, removes their DC offset, cal
 The LCD functions draw the selected display mode over SPI. The onboard button switches between spectrum, peak-frequency, and audio-level views, while UART provides diagnostic readings. Audio level is expressed in dBFS (decibels relative to digital full scale), rather than calibrated sound pressure level.
 
 ## tests
+
+
 250 Hz
 
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/06f20683-459f-49e0-8b3b-381a4649f40f" />
+
+
 
 
 500 Hz
@@ -45,9 +49,13 @@ The LCD functions draw the selected display mode over SPI. The onboard button sw
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/e6d0faad-2a6c-4bdc-bab9-3b88c57e434a" />
 
 
+
+
 1 kHz
 
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/69542c11-75b4-4f98-863c-70e38b7176c2" />
+
+
 
 
 2 kHz
@@ -55,9 +63,13 @@ The LCD functions draw the selected display mode over SPI. The onboard button sw
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/c38c0239-b925-4ba4-8558-7cc94d34d778" />
 
 
+
+
 4 kHz
 
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/628d2fd1-233f-46b5-896e-a69f70894201" />
+
+
 
 
 8 kHz

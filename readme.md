@@ -36,26 +36,32 @@ The LCD functions draw the selected display mode over SPI. The onboard button sw
 
 ## tests
 250 Hz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/06f20683-459f-49e0-8b3b-381a4649f40f" />
 
 
 500 Hz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/e6d0faad-2a6c-4bdc-bab9-3b88c57e434a" />
 
 
 1 kHz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/69542c11-75b4-4f98-863c-70e38b7176c2" />
 
 
 2 kHz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/c38c0239-b925-4ba4-8558-7cc94d34d778" />
 
 
 4 kHz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/628d2fd1-233f-46b5-896e-a69f70894201" />
 
 
 8 kHz
+
 <img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/96a9f41e-d537-4af2-bd80-aedc21631289" />
 
 

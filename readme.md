@@ -36,6 +36,8 @@ MIC_ProcessBlock() extracts the microphone samples, removes their DC offset, cal
 
 The LCD functions draw the selected display mode over SPI. The onboard button switches between spectrum, peak-frequency, and audio-level views, while UART provides diagnostic readings. Audio level is expressed in dBFS (decibels relative to digital full scale), rather than calibrated sound pressure level.
 
+A single main.c file was used for the sake of simplicity when generating and testing the integration through STM32CubeMX, seperated files for different peripheral usage can still be implemented for readability and organization.
+
 ## tests
 
 

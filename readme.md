@@ -51,6 +51,7 @@ A single main.c file was used for the sake of simplicity when generating and tes
 
 
 500 Hz
+
 <img width="720" height="405" alt="500hz_test" src="https://github.com/user-attachments/assets/edcd4e00-3af7-4f20-9e49-477faaf57ec7" />
 
 

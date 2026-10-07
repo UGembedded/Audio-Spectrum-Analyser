@@ -39,7 +39,9 @@ The LCD functions draw the selected display mode over SPI. The onboard button sw
 
 250 Hz
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/06f20683-459f-49e0-8b3b-381a4649f40f" />
+<img width="720" height="405" alt="250hz_test" src="https://github.com/user-attachments/assets/c758a905-8ac1-4119-beea-eb939f950a06" />
+
+
 
 
 

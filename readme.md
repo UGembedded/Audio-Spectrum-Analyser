@@ -15,13 +15,14 @@ The I²S microphone captures sound and sends digital audio samples to the STM32F
 
 
 ## Part list
-
-| Part               | Recommended model                            | Purpose                              |
-| ------------------ | -------------------------------------------- | ------------------------------------ |
-| Microcontroller    | **ESP32-S3-DevKitC-1-N8R8**                  | Samples and processes audio          |
-| Microphone         | **SPH0645LM4H I²S MEMS microphone breakout** | Supplies digital audio samples       |
-| Display            | **2.4-inch ILI9341 SPI TFT, 240 × 320**      | Displays spectrum bars and frequency |
-| Power/programming  | Data-capable USB-C cable                     | Powers and programs the ESP32        |
+| Part              | Model                                              | Purpose                                      |
+| ----------------- | -------------------------------------------------- | -------------------------------------------- |
+| Microcontroller   | **STM32 NUCLEO-F446RE (STM32F446RET6)**            | Acquires audio, performs FFT/DSP, controls UI |
+| Microphone        | **Adafruit SPH0645LM4H I²S MEMS microphone**        | Supplies digital audio samples over I²S      |
+| Display           | **Waveshare 2.4-inch SPI TFT, 240 × 320**           | Displays spectrum, peak frequency and level  |
+| Display controller| **ILI9341**                                         | Controls the TFT display over SPI             |
+| User control      | **On-board B1 push button (PC13)**                  | Cycles between the three display modes        |
+| Power/programming | **USB Mini-B data cable**                           | Powers and programs the NUCLEO-F446RE         |
 
 ## Pin layout
 <img width="682" height="680" alt="pin_layout" src="https://github.com/user-attachments/assets/8f570844-fe94-492a-a8c3-48000fd22e17" />

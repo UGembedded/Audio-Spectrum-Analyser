@@ -1,4 +1,4 @@
-rewrite this, so that i get gifs not images: ## STM32 Audio Spectrum Analyser
+## STM32 Audio Spectrum Analyser
 
 A real-time audio spectrum analyser built using an STM32F446RE microcontroller, an I²S digital microphone, and an ST7789 LCD. The system captures sound and processes it using a Fast Fourier Transform (FFT) to display its frequency content.
 

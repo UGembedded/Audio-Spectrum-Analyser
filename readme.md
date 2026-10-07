@@ -4,9 +4,11 @@ A real-time audio spectrum analyser built using an STM32F446RE microcontroller, 
 
 Three display modes—audio spectrum, peak frequency, and audio level—can be selected using the Nucleo board’s onboard user button. The firmware is written in C using STM32 HAL and CMSIS-DSP, with DMA handling audio data transfers.
 
-<img width="720" height="381" alt="image" src="https://github.com/user-attachments/assets/0eb9693e-1520-4503-a5f6-e41e9bc0f434" />
-<img width="720" height="381" alt="image" src="https://github.com/user-attachments/assets/dad4a9dd-877c-4d2d-818d-a7f39d014287" />
-<img width="720" height="381" alt="image" src="https://github.com/user-attachments/assets/62e3a161-a6eb-498e-9fb0-595359f25d9c" />
+<img width="720" height="381" alt="audio_spectrum_music" src="https://github.com/user-attachments/assets/0ca5cd0f-f0a0-4a8f-b69c-b868461ed4c8" />
+<img width="720" height="381" alt="peak_frequency_clap" src="https://github.com/user-attachments/assets/54dc2335-f524-46a0-9a5e-10a635d4bd2c" />
+<img width="720" height="381" alt="audio_level_music" src="https://github.com/user-attachments/assets/a961ba13-2cd6-490c-8f57-625aee69b184" />
+
+
 
 ## How it works
 The I²S microphone captures sound and sends digital audio samples to the STM32F446RE. Direct Memory Access (DMA) transfers these samples into a memory buffer, allowing the processor to process completed blocks while audio capture continues. The firmware uses the CMSIS-DSP library to perform a Fast Fourier Transform (FFT) for the frequency spectrum and peak-frequency measurement, and calculates the root mean square (RMS) amplitude for the audio-level measurement. The results are displayed on the ST7789 LCD, with the onboard user button switching between the three modes.
@@ -47,33 +49,37 @@ The LCD functions draw the selected display mode over SPI. The onboard button sw
 
 
 500 Hz
+<img width="720" height="405" alt="500hz_test" src="https://github.com/user-attachments/assets/edcd4e00-3af7-4f20-9e49-477faaf57ec7" />
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/e6d0faad-2a6c-4bdc-bab9-3b88c57e434a" />
 
 
 
 
 1 kHz
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/69542c11-75b4-4f98-863c-70e38b7176c2" />
+<img width="720" height="405" alt="1khz_test" src="https://github.com/user-attachments/assets/6a3b042d-a620-41df-87d8-afee60dcfff9" />
+
 
 
 
 
 2 kHz
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/c38c0239-b925-4ba4-8558-7cc94d34d778" />
+<img width="720" height="405" alt="2khz_test" src="https://github.com/user-attachments/assets/31b79b9d-6cc2-4e37-87af-88152f814d61" />
+
 
 
 
 
 4 kHz
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/628d2fd1-233f-46b5-896e-a69f70894201" />
+<img width="720" height="405" alt="4khz_test" src="https://github.com/user-attachments/assets/c82db346-1b1d-4c93-989d-8def905d63ad" />
+
 
 
 
 
 8 kHz
 
-<img width="720" height="405" alt="image" src="https://github.com/user-attachments/assets/96a9f41e-d537-4af2-bd80-aedc21631289" />
+<img width="720" height="405" alt="8khz_test" src="https://github.com/user-attachments/assets/4eca5ac1-26de-4de4-b374-005189889b63" />
+
